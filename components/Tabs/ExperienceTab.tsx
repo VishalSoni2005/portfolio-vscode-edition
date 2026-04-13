@@ -36,38 +36,48 @@ export const ExperienceTab: React.FC = () => {
 
               <div>
                 <span className="text-vscode-keyword">duration</span>:{" "}
-                <span className="text-vscode-string">"2025 - Present"</span>
+                <span className="text-vscode-string">
+                  "Sept 2025 - Present"
+                </span>
               </div>
 
               <div>
                 <span className="text-vscode-keyword">techStack</span>:{" "}
                 <span className="text-vscode-string">
-                  "[React, Next.js, TypeScript, Node.js, MongoDB]"
+                  "[React, Next.js, NestJS, Redux Toolkit, TypeScript, Node.js,
+                  Firebase, MongoDB]"
                 </span>
               </div>
             </div>
-
             <div className="mt-4 space-y-2 text-sm leading-6">
               <p>
-                • Built and optimized scalable full-stack features using modern
-                technologies like Next.js and TypeScript.
+                • Designed and developed a full-stack Admin Console using{" "}
+                <strong>Next.js and NestJS</strong>, managing complex data flows
+                and multi-entity relationships with a scalable architecture.
               </p>
 
               <p>
-                • Worked on real-world production-level applications focusing on
-                performance and clean architecture.
+                • Implemented automated backend workflows using{" "}
+                <strong>Firebase Cloud Scheduler and Cloud Functions</strong>,
+                enabling reliable scheduled and event-driven processing.
               </p>
 
               <p>
-                • Designed and integrated REST APIs, improving data flow between
-                frontend and backend systems.
+                • Built geo-spatial analytics tools (Trip Analyzer & Road
+                Feature Analyzer) using <strong>Google Maps APIs</strong>,
+                enabling real-time visualization of trip data and improving
+                internal analysis efficiency.
               </p>
 
-              <p>• Collaborated on improving UI/UX and system reliability.</p>
+              <p>
+                • Engineered RESTful APIs and optimized data handling across
+                services, improving system performance and maintainability.
+              </p>
 
               <p>
-                • Gained hands-on experience in writing maintainable and
-                scalable code in a team environment.
+                • Collaborated in a production environment, focusing on clean
+                architecture, scalability, and developer-friendly code
+                practices.
               </p>
             </div>
           </div>

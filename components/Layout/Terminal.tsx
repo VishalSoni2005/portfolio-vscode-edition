@@ -126,7 +126,7 @@ export const Terminal: React.FC = () => {
         ))}
         <div className="flex items-center">
           <span className="mr-2 font-bold text-vscode-accent">
-            vishalsoni@macbook-pro portfolio-ide %
+            vishalsoni@macmini-pro portfolio-ide %
           </span>
           <input
             type="text"

@@ -29,6 +29,7 @@ export const HomeTab: React.FC = () => {
         </div>
 
         {/* Code Identity Block */}
+        {/* Code Identity Block */}
         <div className="font-mono text-sm mb-8 bg-vscode-sidebar p-4 border border-vscode-activity rounded-md inline-block">
           <span className="text-vscode-keyword">const</span>{" "}
           <span className="text-vscode-function">developer</span> = {`{`}
@@ -36,18 +37,23 @@ export const HomeTab: React.FC = () => {
             name: <span className="text-vscode-string">'Vishal Soni'</span>,
             <br />
             role:{" "}
-            <span className="text-vscode-string">'Full Stack Developer'</span>
-            ,<br />
+            <span className="text-vscode-string">'Full Stack Engineer'</span>,
+            <br />
             location: <span className="text-vscode-string">'India'</span>,<br />
-            focus:{" "}
+            specialization:{" "}
             <span className="text-vscode-string">
-              'Scalable Web Apps, AI, Financial Tech'
+              'Scalable backend systems, AI-driven applications'
             </span>
             ,<br />
-            currentGoal:{" "}
+            techStack:{" "}
             <span className="text-vscode-string">
-              'Building production-ready systems & preparing for top tech
-              internships'
+              'Next.js, React, Node.js, NestJS, TypeScript'
+            </span>
+            ,<br />
+            currentFocus:{" "}
+            <span className="text-vscode-string">
+              'Building production-grade systems with clean architecture &
+              performance in mind'
             </span>
           </div>
           {`};`}
@@ -55,17 +61,32 @@ export const HomeTab: React.FC = () => {
 
         {/* Short Intro */}
         <p className="text-lg leading-relaxed mb-6">
-          I’m a B.Tech student and Full Stack Developer specializing in building
-          real-world applications using{" "}
+          I’m a B.Tech student and Full Stack Engineer focused on building{" "}
           <strong className="text-vscode-text font-bold">
-            React, Next.js, Node.js, and TypeScript
-          </strong>
-          .
+            scalable, production-ready web applications
+          </strong>{" "}
+          using modern technologies like React, Next.js, Node.js, NestJS, and
+          TypeScript.
           <br />
           <br />
-          I’ve built systems like ERP platforms, AI-powered interview tools, and
-          SaaS products — with a strong focus on scalability and clean
+          I’ve developed systems including{" "}
+          <strong>
+            AI-powered interview platforms, admin dashboards, secure chat
+            applications, and backend automation tools
+          </strong>{" "}
+          — with strong emphasis on performance, security, and maintainable
           architecture.
+        </p>
+
+        {/* Add this NEW section (very important for Tech Leads) */}
+        <p className="text-lg leading-relaxed mb-8">
+          I actively focus on{" "}
+          <strong>
+            system design fundamentals, data structures, and low-level
+            understanding of how software works
+          </strong>
+          — aiming to grow into an engineer capable of building and optimizing
+          systems at scale.
         </p>
 
         {/* Strong Direction Signal */}
@@ -74,11 +95,8 @@ export const HomeTab: React.FC = () => {
           <strong className="text-vscode-accent">
             financial markets, backend systems, and high-performance engineering
           </strong>
-          , and aim to work on impactful products in fintech and trading
-          systems.
+          , and aim to work on impactful projects that solve real problems.
         </p>
-
-     
 
         <div className="mt-16 pt-8 border-t border-vscode-activity">
           <h3 className="text-sm uppercase tracking-wider text-vscode-text opacity-70 mb-4">
