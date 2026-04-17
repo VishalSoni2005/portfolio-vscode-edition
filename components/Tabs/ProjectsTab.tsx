@@ -15,10 +15,6 @@ const projects = [
       "MongoDB",
       "Redux Toolkit",
     ],
-    testCredentials: {
-      email: "ravi@attento.club",
-      password: "ravi@123",
-    },
   },
   {
     id: 1,
@@ -27,10 +23,6 @@ const projects = [
       "A tool to analyze road features using google maps utitlity api.",
     link: "https://trip-analyser-client-775976622335.asia-south1.run.app/",
     tags: ["React", "Frontend", "JavaScript"],
-    testCredentials: {
-      email: "ravi@attento.club",
-      password: "ravi@123",
-    },
   },
   // {
   //   id: 2,
@@ -115,7 +107,7 @@ export const ProjectsTab: React.FC = () => {
               ))}
               <span className="text-vscode-bracket">]</span>
             </div>
-            {project.testCredentials && (
+            {/* {project.testCredentials && (
               <div>
                 <span className="text-vscode-variable">"testCredentials"</span>:{" "}
                 <span className="text-vscode-bracket">{`{`}</span>
@@ -137,7 +129,7 @@ export const ProjectsTab: React.FC = () => {
                 </div>
                 <span className="text-vscode-bracket">{`}`}</span>
               </div>
-            )}
+            )} */}
           </div>
           <span className="text-vscode-bracket">
             {`}`}
