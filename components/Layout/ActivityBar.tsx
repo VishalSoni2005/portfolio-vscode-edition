@@ -67,19 +67,19 @@ export const ActivityBar: React.FC = () => {
       <IconWrapper>
         <Search size={24} strokeWidth={1.5} />
       </IconWrapper>
-      <IconWrapper>
+      {/* <IconWrapper>
         <GitGraph size={24} strokeWidth={1.5} />
-      </IconWrapper>
-      <IconWrapper>
+      </IconWrapper> */}
+      {/* <IconWrapper>
         <Bug size={24} strokeWidth={1.5} />
       </IconWrapper>
       <IconWrapper>
         <Box size={24} strokeWidth={1.5} />
-      </IconWrapper>
+      </IconWrapper> */}
       <div className="flex-1" /> {/* Spacer */}
-      <IconWrapper>
+      {/* <IconWrapper>
         <User size={24} strokeWidth={1.5} />
-      </IconWrapper>
+      </IconWrapper> */}
       <div className="relative w-full" ref={settingsRef}>
         <IconWrapper onClick={() => setShowSettingsMenu(!showSettingsMenu)}>
           <Settings size={24} strokeWidth={1.5} />
